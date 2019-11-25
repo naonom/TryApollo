@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B5C6199349F2DA22624596 /* libPods-TryApollo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E61A2DE7BAE2039BE71EF074 /* libPods-TryApollo.a */; };
+		239D986AE17D26C3E380E2F3 /* libPods-TryApollo-TryApolloUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 056C1434041BF1D71DA7A590 /* libPods-TryApollo-TryApolloUITests.a */; };
+		2D4882587B0E17DA75B085B8 /* libPods-TryApolloTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD1B24C2421536C1AFF1594 /* libPods-TryApolloTests.a */; };
+		B037F343237D41C9005BF4F9 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = B037F342237D41C9005BF4F9 /* schema.json */; };
+		B037F345237D446F005BF4F9 /* GetUser.graphql in Resources */ = {isa = PBXBuildFile; fileRef = B037F344237D446F005BF4F9 /* GetUser.graphql */; };
+		B037F34F2383B55C005BF4F9 /* ApolloClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F34E2383B55C005BF4F9 /* ApolloClient.swift */; };
+		B037F3512383B70A005BF4F9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F3502383B70A005BF4F9 /* API.swift */; };
+		B06A72AA23792598002B2AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A72A923792598002B2AB8 /* AppDelegate.swift */; };
+		B06A72AC23792598002B2AB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A72AB23792598002B2AB8 /* SceneDelegate.swift */; };
+		B06A72AE23792598002B2AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A72AD23792598002B2AB8 /* ViewController.swift */; };
+		B06A72B123792598002B2AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06A72AF23792598002B2AB8 /* Main.storyboard */; };
+		B06A72B32379259A002B2AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06A72B22379259A002B2AB8 /* Assets.xcassets */; };
+		B06A72B62379259A002B2AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06A72B42379259A002B2AB8 /* LaunchScreen.storyboard */; };
+		B06A72C12379259A002B2AB8 /* TryApolloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A72C02379259A002B2AB8 /* TryApolloTests.swift */; };
+		B06A72CC2379259A002B2AB8 /* TryApolloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A72CB2379259A002B2AB8 /* TryApolloUITests.swift */; };
+		B06A72DE23792634002B2AB8 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A72DD23792634002B2AB8 /* GetUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B06A72BD2379259A002B2AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06A729E23792598002B2AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06A72A523792598002B2AB8;
+			remoteInfo = TryApollo;
+		};
+		B06A72C82379259A002B2AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06A729E23792598002B2AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06A72A523792598002B2AB8;
+			remoteInfo = TryApollo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056C1434041BF1D71DA7A590 /* libPods-TryApollo-TryApolloUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryApollo-TryApolloUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E65D7E0D5216501B6D9440 /* Pods-TryApollo-TryApolloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApollo-TryApolloUITests.release.xcconfig"; path = "Target Support Files/Pods-TryApollo-TryApolloUITests/Pods-TryApollo-TryApolloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6902922F80A10CC86D17FF53 /* Pods-TryApollo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApollo.debug.xcconfig"; path = "Target Support Files/Pods-TryApollo/Pods-TryApollo.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD1B24C2421536C1AFF1594 /* libPods-TryApolloTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryApolloTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43EBB4EEAD951353BA3A683 /* Pods-TryApollo-TryApolloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApollo-TryApolloUITests.debug.xcconfig"; path = "Target Support Files/Pods-TryApollo-TryApolloUITests/Pods-TryApollo-TryApolloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B037F342237D41C9005BF4F9 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		B037F344237D446F005BF4F9 /* GetUser.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GetUser.graphql; sourceTree = "<group>"; };
+		B037F34E2383B55C005BF4F9 /* ApolloClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClient.swift; sourceTree = "<group>"; };
+		B037F3502383B70A005BF4F9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B06A72A623792598002B2AB8 /* TryApollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryApollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A72A923792598002B2AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B06A72AB23792598002B2AB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B06A72AD23792598002B2AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B06A72B023792598002B2AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B06A72B22379259A002B2AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06A72B52379259A002B2AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B06A72B72379259A002B2AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06A72BC2379259A002B2AB8 /* TryApolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryApolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A72C02379259A002B2AB8 /* TryApolloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryApolloTests.swift; sourceTree = "<group>"; };
+		B06A72C22379259A002B2AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06A72C72379259A002B2AB8 /* TryApolloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryApolloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A72CB2379259A002B2AB8 /* TryApolloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryApolloUITests.swift; sourceTree = "<group>"; };
+		B06A72CD2379259A002B2AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06A72DD23792634002B2AB8 /* GetUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUser.swift; sourceTree = "<group>"; };
+		BA1F45ACBE789C78D44900BF /* Pods-TryApollo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApollo.release.xcconfig"; path = "Target Support Files/Pods-TryApollo/Pods-TryApollo.release.xcconfig"; sourceTree = "<group>"; };
+		DAB0CE928BC6BAB1E8597823 /* Pods-TryApolloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApolloTests.debug.xcconfig"; path = "Target Support Files/Pods-TryApolloTests/Pods-TryApolloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E61A2DE7BAE2039BE71EF074 /* libPods-TryApollo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryApollo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED45EA92EF6AE950CBF17ABF /* Pods-TryApolloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApolloTests.release.xcconfig"; path = "Target Support Files/Pods-TryApolloTests/Pods-TryApolloTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06A72A323792598002B2AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B5C6199349F2DA22624596 /* libPods-TryApollo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A72B92379259A002B2AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4882587B0E17DA75B085B8 /* libPods-TryApolloTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A72C42379259A002B2AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239D986AE17D26C3E380E2F3 /* libPods-TryApollo-TryApolloUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0242AE1CFFC59AAA68C4EDA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6902922F80A10CC86D17FF53 /* Pods-TryApollo.debug.xcconfig */,
+				BA1F45ACBE789C78D44900BF /* Pods-TryApollo.release.xcconfig */,
+				A43EBB4EEAD951353BA3A683 /* Pods-TryApollo-TryApolloUITests.debug.xcconfig */,
+				05E65D7E0D5216501B6D9440 /* Pods-TryApollo-TryApolloUITests.release.xcconfig */,
+				DAB0CE928BC6BAB1E8597823 /* Pods-TryApolloTests.debug.xcconfig */,
+				ED45EA92EF6AE950CBF17ABF /* Pods-TryApolloTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77198FB4403091166F8526A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E61A2DE7BAE2039BE71EF074 /* libPods-TryApollo.a */,
+				056C1434041BF1D71DA7A590 /* libPods-TryApollo-TryApolloUITests.a */,
+				8BD1B24C2421536C1AFF1594 /* libPods-TryApolloTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06A729D23792598002B2AB8 = {
+			isa = PBXGroup;
+			children = (
+				B06A72A823792598002B2AB8 /* TryApollo */,
+				B06A72BF2379259A002B2AB8 /* TryApolloTests */,
+				B06A72CA2379259A002B2AB8 /* TryApolloUITests */,
+				B06A72A723792598002B2AB8 /* Products */,
+				0242AE1CFFC59AAA68C4EDA5 /* Pods */,
+				77198FB4403091166F8526A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B06A72A723792598002B2AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06A72A623792598002B2AB8 /* TryApollo.app */,
+				B06A72BC2379259A002B2AB8 /* TryApolloTests.xctest */,
+				B06A72C72379259A002B2AB8 /* TryApolloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06A72A823792598002B2AB8 /* TryApollo */ = {
+			isa = PBXGroup;
+			children = (
+				B037F342237D41C9005BF4F9 /* schema.json */,
+				B037F34E2383B55C005BF4F9 /* ApolloClient.swift */,
+				B06A72DD23792634002B2AB8 /* GetUser.swift */,
+				B037F344237D446F005BF4F9 /* GetUser.graphql */,
+				B037F3502383B70A005BF4F9 /* API.swift */,
+				B06A72A923792598002B2AB8 /* AppDelegate.swift */,
+				B06A72AB23792598002B2AB8 /* SceneDelegate.swift */,
+				B06A72AD23792598002B2AB8 /* ViewController.swift */,
+				B06A72AF23792598002B2AB8 /* Main.storyboard */,
+				B06A72B22379259A002B2AB8 /* Assets.xcassets */,
+				B06A72B42379259A002B2AB8 /* LaunchScreen.storyboard */,
+				B06A72B72379259A002B2AB8 /* Info.plist */,
+			);
+			path = TryApollo;
+			sourceTree = "<group>";
+		};
+		B06A72BF2379259A002B2AB8 /* TryApolloTests */ = {
+			isa = PBXGroup;
+			children = (
+				B06A72C02379259A002B2AB8 /* TryApolloTests.swift */,
+				B06A72C22379259A002B2AB8 /* Info.plist */,
+			);
+			path = TryApolloTests;
+			sourceTree = "<group>";
+		};
+		B06A72CA2379259A002B2AB8 /* TryApolloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B06A72CB2379259A002B2AB8 /* TryApolloUITests.swift */,
+				B06A72CD2379259A002B2AB8 /* Info.plist */,
+			);
+			path = TryApolloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06A72A523792598002B2AB8 /* TryApollo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06A72D02379259A002B2AB8 /* Build configuration list for PBXNativeTarget "TryApollo" */;
+			buildPhases = (
+				CD78DD2EDA2DC42CF4C25FDE /* [CP] Check Pods Manifest.lock */,
+				B06A72DF2379265E002B2AB8 /* Generate Apollo GraphQL API */,
+				B06A72A223792598002B2AB8 /* Sources */,
+				B06A72A323792598002B2AB8 /* Frameworks */,
+				B06A72A423792598002B2AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryApollo;
+			productName = TryApollo;
+			productReference = B06A72A623792598002B2AB8 /* TryApollo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B06A72BB2379259A002B2AB8 /* TryApolloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06A72D32379259A002B2AB8 /* Build configuration list for PBXNativeTarget "TryApolloTests" */;
+			buildPhases = (
+				94C3C4F469D2D213F27DA0E5 /* [CP] Check Pods Manifest.lock */,
+				B06A72B82379259A002B2AB8 /* Sources */,
+				B06A72B92379259A002B2AB8 /* Frameworks */,
+				B06A72BA2379259A002B2AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06A72BE2379259A002B2AB8 /* PBXTargetDependency */,
+			);
+			name = TryApolloTests;
+			productName = TryApolloTests;
+			productReference = B06A72BC2379259A002B2AB8 /* TryApolloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B06A72C62379259A002B2AB8 /* TryApolloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06A72D62379259A002B2AB8 /* Build configuration list for PBXNativeTarget "TryApolloUITests" */;
+			buildPhases = (
+				43237F468961A9647B232CFF /* [CP] Check Pods Manifest.lock */,
+				B06A72C32379259A002B2AB8 /* Sources */,
+				B06A72C42379259A002B2AB8 /* Frameworks */,
+				B06A72C52379259A002B2AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06A72C92379259A002B2AB8 /* PBXTargetDependency */,
+			);
+			name = TryApolloUITests;
+			productName = TryApolloUITests;
+			productReference = B06A72C72379259A002B2AB8 /* TryApolloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06A729E23792598002B2AB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "nao noma";
+				TargetAttributes = {
+					B06A72A523792598002B2AB8 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B06A72BB2379259A002B2AB8 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B06A72A523792598002B2AB8;
+					};
+					B06A72C62379259A002B2AB8 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = B06A72A523792598002B2AB8;
+					};
+				};
+			};
+			buildConfigurationList = B06A72A123792598002B2AB8 /* Build configuration list for PBXProject "TryApollo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06A729D23792598002B2AB8;
+			productRefGroup = B06A72A723792598002B2AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06A72A523792598002B2AB8 /* TryApollo */,
+				B06A72BB2379259A002B2AB8 /* TryApolloTests */,
+				B06A72C62379259A002B2AB8 /* TryApolloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06A72A423792598002B2AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A72B62379259A002B2AB8 /* LaunchScreen.storyboard in Resources */,
+				B037F343237D41C9005BF4F9 /* schema.json in Resources */,
+				B06A72B32379259A002B2AB8 /* Assets.xcassets in Resources */,
+				B06A72B123792598002B2AB8 /* Main.storyboard in Resources */,
+				B037F345237D446F005BF4F9 /* GetUser.graphql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A72BA2379259A002B2AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A72C52379259A002B2AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43237F468961A9647B232CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryApollo-TryApolloUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C3C4F469D2D213F27DA0E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryApolloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B06A72DF2379265E002B2AB8 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+		CD78DD2EDA2DC42CF4C25FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryApollo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06A72A223792598002B2AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A72AE23792598002B2AB8 /* ViewController.swift in Sources */,
+				B06A72AA23792598002B2AB8 /* AppDelegate.swift in Sources */,
+				B06A72AC23792598002B2AB8 /* SceneDelegate.swift in Sources */,
+				B037F34F2383B55C005BF4F9 /* ApolloClient.swift in Sources */,
+				B037F3512383B70A005BF4F9 /* API.swift in Sources */,
+				B06A72DE23792634002B2AB8 /* GetUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A72B82379259A002B2AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A72C12379259A002B2AB8 /* TryApolloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A72C32379259A002B2AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A72CC2379259A002B2AB8 /* TryApolloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B06A72BE2379259A002B2AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06A72A523792598002B2AB8 /* TryApollo */;
+			targetProxy = B06A72BD2379259A002B2AB8 /* PBXContainerItemProxy */;
+		};
+		B06A72C92379259A002B2AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06A72A523792598002B2AB8 /* TryApollo */;
+			targetProxy = B06A72C82379259A002B2AB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B06A72AF23792598002B2AB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06A72B023792598002B2AB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B06A72B42379259A002B2AB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06A72B52379259A002B2AB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B06A72CE2379259A002B2AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B06A72CF2379259A002B2AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06A72D12379259A002B2AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6902922F80A10CC86D17FF53 /* Pods-TryApollo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FKTD22VQU;
+				INFOPLIST_FILE = TryApollo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.naonoma.TryApollo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06A72D22379259A002B2AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1F45ACBE789C78D44900BF /* Pods-TryApollo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FKTD22VQU;
+				INFOPLIST_FILE = TryApollo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.naonoma.TryApollo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B06A72D42379259A002B2AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB0CE928BC6BAB1E8597823 /* Pods-TryApolloTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FKTD22VQU;
+				INFOPLIST_FILE = TryApolloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.naonoma.TryApolloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryApollo.app/TryApollo";
+			};
+			name = Debug;
+		};
+		B06A72D52379259A002B2AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED45EA92EF6AE950CBF17ABF /* Pods-TryApolloTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FKTD22VQU;
+				INFOPLIST_FILE = TryApolloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.naonoma.TryApolloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryApollo.app/TryApollo";
+			};
+			name = Release;
+		};
+		B06A72D72379259A002B2AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43EBB4EEAD951353BA3A683 /* Pods-TryApollo-TryApolloUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FKTD22VQU;
+				INFOPLIST_FILE = TryApolloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.naonoma.TryApolloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryApollo;
+			};
+			name = Debug;
+		};
+		B06A72D82379259A002B2AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E65D7E0D5216501B6D9440 /* Pods-TryApollo-TryApolloUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FKTD22VQU;
+				INFOPLIST_FILE = TryApolloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.naonoma.TryApolloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryApollo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06A72A123792598002B2AB8 /* Build configuration list for PBXProject "TryApollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A72CE2379259A002B2AB8 /* Debug */,
+				B06A72CF2379259A002B2AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06A72D02379259A002B2AB8 /* Build configuration list for PBXNativeTarget "TryApollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A72D12379259A002B2AB8 /* Debug */,
+				B06A72D22379259A002B2AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06A72D32379259A002B2AB8 /* Build configuration list for PBXNativeTarget "TryApolloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A72D42379259A002B2AB8 /* Debug */,
+				B06A72D52379259A002B2AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06A72D62379259A002B2AB8 /* Build configuration list for PBXNativeTarget "TryApolloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A72D72379259A002B2AB8 /* Debug */,
+				B06A72D82379259A002B2AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06A729E23792598002B2AB8 /* Project object */;
+}

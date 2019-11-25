@@ -1,0 +1,6 @@
+module Pods_TryApollo_TryApolloUITests {
+  umbrella header "Pods-TryApollo-TryApolloUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
