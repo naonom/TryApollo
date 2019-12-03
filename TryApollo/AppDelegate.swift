@@ -9,7 +9,9 @@
 import UIKit
 import Apollo
 
-let apollo = ApolloClient(url: URL(string: "http://localhost:4000/graphql")!)
+// ngrokでhttpsのurlを書き込む
+// 書き込むurlは有効なものを使用してください
+let apollo = ApolloClient(url: URL(string: "https://86a636e8.ngrok.io/graphql")!)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
