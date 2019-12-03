@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00B5C6199349F2DA22624596 /* libPods-TryApollo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E61A2DE7BAE2039BE71EF074 /* libPods-TryApollo.a */; };
+		0217382F23962C2100A0F993 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0217382E23962C2100A0F993 /* Network.swift */; };
 		239D986AE17D26C3E380E2F3 /* libPods-TryApollo-TryApolloUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 056C1434041BF1D71DA7A590 /* libPods-TryApollo-TryApolloUITests.a */; };
 		2D4882587B0E17DA75B085B8 /* libPods-TryApolloTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD1B24C2421536C1AFF1594 /* libPods-TryApolloTests.a */; };
 		B037F343237D41C9005BF4F9 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = B037F342237D41C9005BF4F9 /* schema.json */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0217382E23962C2100A0F993 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		056C1434041BF1D71DA7A590 /* libPods-TryApollo-TryApolloUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryApollo-TryApolloUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E65D7E0D5216501B6D9440 /* Pods-TryApollo-TryApolloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApollo-TryApolloUITests.release.xcconfig"; path = "Target Support Files/Pods-TryApollo-TryApolloUITests/Pods-TryApollo-TryApolloUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6902922F80A10CC86D17FF53 /* Pods-TryApollo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryApollo.debug.xcconfig"; path = "Target Support Files/Pods-TryApollo/Pods-TryApollo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				B06A72B22379259A002B2AB8 /* Assets.xcassets */,
 				B06A72B42379259A002B2AB8 /* LaunchScreen.storyboard */,
 				B06A72B72379259A002B2AB8 /* Info.plist */,
+				0217382E23962C2100A0F993 /* Network.swift */,
 			);
 			path = TryApollo;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				B06A72AC23792598002B2AB8 /* SceneDelegate.swift in Sources */,
 				B037F34F2383B55C005BF4F9 /* ApolloClient.swift in Sources */,
 				B037F3512383B70A005BF4F9 /* API.swift in Sources */,
+				0217382F23962C2100A0F993 /* Network.swift in Sources */,
 				B06A72DE23792634002B2AB8 /* GetUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
